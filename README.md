@@ -1,7 +1,7 @@
 # Clasificación de Audio de Gatos y Perros
 
 Este proyecto implementa y compara dos enfoques de aprendizaje profundo para la clasificación de clips de audio de gatos y perros.  
-Los modelos fueron desarrollados con PyTorch y probados mediante un script que permite subir archivos `.wav` para realizar la inferencia.
+Los modelos fueron desarrollados con PyTorch y probados mediante dos scripts que permiten subir archivos `.wav` para realizar la inferencia.
 
 ## Reporte de resultados
 Con el fin de poder tener un completo entendimiento de la metodología seguida para edesarrollo de ambos modelos, se recomienda leer el archivo: 
