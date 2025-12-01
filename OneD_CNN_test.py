@@ -57,7 +57,7 @@ def preprocess_audio(path, target_sample_rate=16000, max_duration=1.0):
     return waveform.unsqueeze(0)   # [1, 1, N]
 
 
-def predict(audio_path, model_path="best_audio_model1.pt"):
+def predict(audio_path, model_path="best_audio_model.pt"):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Cargar modelo

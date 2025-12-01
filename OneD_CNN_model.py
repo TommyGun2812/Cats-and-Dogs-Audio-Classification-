@@ -110,7 +110,7 @@ if __name__ == "__main__":
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 
     # Para guardar el mejor modelo
-    best_model_path = "best_audio_model1.pt"
+    best_model_path = "best_audio_model.pt"
     best_val_acc = 0.0
 
     # Historial
